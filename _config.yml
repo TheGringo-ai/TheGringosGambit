@@ -1,1 +1,44 @@
-Theme: minima
+title: "The Gringo’s Gambit"
+description: "A true crime workplace drama based on real events inside a broken system."
+author: "The Gringo"
+email: yoyofred@gringosgambit.com
+url: "https://www.gringosgambit.com" # Replace with your actual site URL
+baseurl: "" # Leave blank unless you're hosting under a subpath
+
+# Theme
+theme: minima # You can switch to a custom theme or use a minimal starter
+markdown: kramdown
+permalink: pretty
+
+# Social Links (Optional)
+social_links:
+  github: https://github.com/TheGringo-ai/TheGringosGambit
+  email: yoyofred@gringosgambit.com
+
+# Navigation (Optional for Minima or custom themes with navbar support)
+# You can reference these links in your layout if needed
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about/"
+  - title: "Characters"
+    url: "/characters/"
+  - title: "Chapters"
+    url: "/chapters/"
+  - title: "Contact"
+    url: "/contact/"
+
+# Plugins (Enable features like feeds, SEO, etc.)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# SEO Settings
+seo:
+  type: "book"
+  name: "The Gringo’s Gambit"
+  description: "A no-holds-barred true crime story told from the inside."
+  author: "The Gringo"
+  twitter:
+    username: yourhandle
